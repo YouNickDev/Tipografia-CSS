@@ -6,6 +6,7 @@ body {
     font-family: 'Courier New', Courier, monospace, sans-serif;
     justify-content: center;
     text-align: center;
+    margin: 30px;
 }
 main {
     display: center;
@@ -25,13 +26,13 @@ main {
     background-color: rgba(0, 0, 0, 0.829);
 }
 h1 {
-    font-size: clamp(17px, 2vw, 28px);
+    font-size: clamp(18px, 2vw, 30px);
     text-shadow: 0px 1px 1px rgba(5, 47, 231, 0.199), 1px 0px 1px rgba(255, 219, 14, 0.39);
     background-color: rgba(255, 255, 255, 0.308);
 
 }
 p {
-    font-size: clamp(13px, 2vw, 18px);
+    font-size: clamp(13px, 2vw, 20px);
     line-height: 1.6em;
     color: #000000;
     background-color: #fffdfd;
@@ -47,7 +48,7 @@ p {
    
 }
 code > p {
-    font-size: clamp(13px, 2vw, 18px);
+    font-size: clamp(13px, 2vw, 20px);
     line-height: 1.3em;
     color: #000000;
     background-color: #fffdfd;
@@ -58,3 +59,67 @@ code > p {
     box-shadow: inset 1px 1px 3px rgb(14, 78, 255), 1px 1px 3px rgba(24, 83, 245, 0.644);
     border: 1px  #000000;
 }
+.item2 {
+    display: flexbox;
+    align-items: center;
+    max-width: 700px;
+    max-height: 400px;
+    font-size: clamp(13px, 2vw, 20px);
+    line-height: 1em;
+    color: #00d4ff;
+    background-color: rgb(184, 253, 255);
+    margin-left: 52px;
+    margin-right: 52px;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 4px 0px rgb(4, 32, 109), 1px 1px 4px 0px rgba(0, 38, 255, 0.87);
+    border: 1px  #000000;
+    padding-top: 23px;
+    padding-bottom: 16px;
+}
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 52px;
+    margin-right: 52px;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 3px rgb(4, 21, 66), 1px 1px 3px rgba(18, 67, 202, 0.856);
+    border: 1px #000000;
+}
+#name {
+    color: #000000;
+    background-color: rgba(36, 248, 255, 0.753);
+}
+#dataa {
+    color: #000000;
+    background-color: rgba(18, 247, 255, 0.856);
+    
+}
+#social {
+    display: flexbox;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    font-size: clamp(13px, 2vw, 18px);
+    line-height: 1.3em;
+    margin-left: 45px;
+    text-align: left;
+    color: #00d4ff;
+    text-decoration: none;
+    
+}
+button {
+    
+    display: flex;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    font-size: 25px;
+    margin: 6px;
+    white-space: nowrap;
+    line-height: 1em;
+    text-align: left;
+    color: #000000;
+    background-color: rgba(36, 248, 255, 0.753);
+    box-shadow: inset 1px 1px 4px 0px rgb(4, 32, 109), 1px 1px 4px 0px rgba(0, 38, 255, 0.87);
+    border: 1px #000000;
+    border-radius: 4px;
+    padding: -10px;
+}
+
