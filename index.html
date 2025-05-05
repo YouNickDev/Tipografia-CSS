@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Tipografia</title>
+</head>
+
+<body>
+    <main>
+        <picture abbr title="www.w3schools.com/css/css_font.asp"> 
+            <source media="(max-width:650px)" srcset="./imagens/tipografia400x106.png" type="image/png" width="70%" height="70%"">
+            <source media="(max-width:900px )" srcset="./imagens/tipografia550x147.png" type="image/png" width="65%" height="70%">           
+            <source media="(max-width:1300px )" srcset="./imagens/tipografia700x190.png" type="image/png" width="60%" height="70%">
+            <source media="(max-width:1600px )" srcset="./imagens/tipografia900x250.png" type="image/png" width="55%" height="70%">
+            <a href="https://www.w3schools.com/css/css_font.asp" target="_blank"><img src="imagens/Tipografia.png" alt="tipografia" type="image/png" width="60%" height="80%"><br><span id="sub"> link para o artigo completo aqui!</span></a>
+            
+        </picture>
+    </main>
+
+    <div class="item 1"><h1>Resumo de Tipografia</h1>
+        <p>Tipografia é o estilo, arranjo eaparência de texto. Ela envolve aseleção de fontes, tamanhos,espaçamento e outros elementos queafetam a legibilidade e a estética dotexto.</p></div>
+    <h1> No Arquivo CSS</h1>
+    <pre>
+        <code>
+ <p>
+     &lt;style&gt;
+        body {
+            font-family: 'Arial',sans-serif;
+            font-size: clamp(1rem, 2vw, 1.5rem);
+            line-height: 1.6;
+            color: #333;
+         }
+ 
+        h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+ 
+        p {
+            margin-bottom: 1em;
+        }
+    &lt;/style&gt;
+        </p>
+        </code>
+    </pre>
+</body>
+
+</html>
